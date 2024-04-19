@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #ffe5ec;
     height: 100vh;
 }
 
@@ -21,29 +21,34 @@ body{
     display: flex;
 }
 
+.btn-contato a {
+    text-decoration: none; /* Remove a decoração de texto */
+}
+
 .btn-contato button{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ff8fab;
+    background-color: #ff85a1;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
     transition: .2s;
+    margin-right: 10px;
 }
 
 h2.titulo{
-    color: white;
+    color: black;
     font-size: 38px;
     text-align: center;
 }
 
 h2.titulo span{
-    color: #fb6f92;
+    color: #c9184a;
 }
 
 button:hover, form .btn-enviar input:hover{
-    box-shadow: 0px 0px 8px #fb6f92;
+    box-shadow: 0px 0px 8px #c9184a;
     transform: scale(1.05);
 }
 
@@ -65,7 +70,7 @@ header a{
 }
 
 header a:hover{
-    color: #fff;
+    color: #c9184a;
     transform: scale(1.05);
     transition: .2s;
 }
@@ -97,18 +102,18 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site h1{
-    color: white;
+    color: black;
     font-size: 42px;
     line-height: 40px;
 }
 
 .topo-do-site.topo-do-site h1 span{
-    color: #fb6f92;
+    color: #c9184a;
     font: 84px;
 }
 
 .topo-do-site.topo-do-site p{
-    color: white;
+    color: black;
     margin: 40px 0;
 }
 
@@ -137,7 +142,7 @@ section.especialidades .flex{
 }
 
 .especialidades .especialidades-box{
-    color: white;
+    color: black;
     padding: 40px;
     border-radius: 20px;
     margin-top: 45px;
@@ -146,12 +151,12 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 8px #ff8fab;
+    box-shadow: 0 0 8px #c9184a;
 }
 
 .especialidades .especialidades-box i{
     font-size: 50px;
-    color: #ff8fab;
+    color: #c9184a;
 }
 
 .especialidades .especialidades-box h3{
@@ -170,7 +175,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre{
-    color: white;
+    color: black;
 }
 
 .sobre .txt-sobre h2{
@@ -180,7 +185,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-    color: #ff8fab;
+    color: #c9184a;
     display: block;
 }
 
@@ -209,7 +214,7 @@ section.sobre .flex{
 /* ESTILO PORTFOLIO */
 section.portfolio{
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #9b5c6b;
+    box-shadow: 0 0 40px 10px #d195a3;
 }
 
 section.portfolio .flex{
@@ -272,7 +277,7 @@ form{
 
 form input, form textarea{
     width: 100%;
-    background-color: #242424;
+    background-color: #585757;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -282,11 +287,11 @@ form input, form textarea{
 }
 
 form input::placeholder{
-    color: #fb6f92;
+    color: #ffb3c6;
 }
 
 form textarea::placeholder{
-    color: #fb6f92;
+    color: #ffb3c6;
 }
 
 form textarea{
@@ -301,7 +306,7 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: #fb6f92;
+    background-color: #ffb3c6;
     color: black;
     font-size: 700;
     cursor: pointer;
