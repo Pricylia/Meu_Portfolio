@@ -194,7 +194,7 @@ section.sobre .flex{
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -311,4 +311,37 @@ form .btn-enviar input{
     font-size: 700;
     cursor: pointer;
     transition: 1.2s;
+}
+
+/* ESTILO RODAPÉ */
+
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #d195a3;
+} 
+
+footer .flex{
+    justify-content: space-between;
+} 
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+footer .line-footer img{
+    max-width: 100px; 
+    height: auto;
+}
+
+.borda{
+    border-top: 2px solid #c9184a;
+}
+
+footer .line-footer p i{
+    color: #c9184a;
+    font-size: 22px;
+}
+
+footer .line-footer p a{
+    color: black;
 }
