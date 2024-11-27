@@ -27,10 +27,10 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Especialidades</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Projetos</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#conhecimentos">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Projetos</a></li>
                 </ul>
             </nav>
 
@@ -51,12 +51,12 @@
 
                 <nav>
                     <ul>
-                        <li><a href="">Inicio</a></li>
-                        <li><a href="">Conhecimentos</a></li>
-                        <li><a href="">Especialidades</a></li>
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Projetos</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#conhecimentos">Conhecimentos</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#portfolio">Projetos</a></li>
+                        <li><a href="#interface">Contato</a></li>
                     </ul>
                 </nav>
 
@@ -70,8 +70,8 @@
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1><span>UI</span> Designer Junior<span>.</span></h1>
-                        <p>Estou no começo da minha trajetória na area de UI e ansiosa para enfrentar desafios e crescer profissionalmente.</p>
+                        <h1><span>Front-end</span> e <span>UI</span> Designer Junior<span>.</span></h1>
+                        <p>Estou no começo da minha trajetória na área do Front-end e de UI Designer e ansiosa para enfrentar desafios e crescer profissionalmente.</p>
 
                         <div class="btn-contato">
                             <a href="#">
@@ -90,7 +90,7 @@
             </div>
         </section>
 
-        <section class="conhecimentos">
+        <section class="conhecimentos" id="conhecimentos">
             <div class="interface">
                 <h2 class="titulo">MEUS <span>CONHECIMENTOS.</span></h2>
                 <div class="tabela-conhecimentos">
@@ -106,18 +106,18 @@
                                 <td>HTML</td>
                                 <td>
                                     <div class="barra-progresso">
-                                        <div class="progresso" style="width: 60%;"></div>
+                                        <div class="progresso" style="width: 70%;"></div>
                                     </div>
-                                    <span>60%</span>
+                                    <span>70%</span>
                                 </td>
                             </tr>
                             <tr>
                                 <td>CSS</td>
                                 <td>
                                     <div class="barra-progresso">
-                                        <div class="progresso" style="width: 50%;"></div>
+                                        <div class="progresso" style="width: 60%;"></div>
                                     </div>
-                                    <span>50%</span>
+                                    <span>60%</span>
                                 </td>
                             </tr>
                             <tr>
@@ -136,14 +136,14 @@
         </section>
         </section>
         </section>
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-grid-1x2-fill"></i>
                         <h3>Prototipação</h3>
-                        <p>Capacidade de traduzir requisitos de design em <br>protótipos utilizando o Figma. Minha experiência<br> 
+                        <p>Capacidade de traduzir requisitos de design em protótipos <br> utilizando o Figma. Minha experiência<br> 
                             inclui a criação de wireframes e protótipos interativos.</p>
                     </div>
                     <div class="especialidades-box">
@@ -159,7 +159,7 @@
                 </div>
             </div>
         </section>
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -172,13 +172,14 @@
                         <div class="btn-social">
                             <a href="https://www.instagram.com/ipricylia_/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
                             <a href="https://www.linkedin.com/in/pricylia-oliveira?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcbkOEYxpRsS3NTxsVhZ2cQ%3D%3D" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/Pricylia" target="_blank"><button><i class="bi bi-github"></i></button></a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
                 <div class="flex">
@@ -188,30 +189,17 @@
                     <div class="img-port" style="background-image: url(images/herbario.jpeg);">
                         <div class="overlay">Herbário</div>
                     </div>
-                    <div class="img-port" style="background-image: url(images/ceape.jpeg);">
+                    <div class="img-port" style="background-image: url(images/ceape.jpg);">
                         <div class="overlay">Site Ceape</div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="formulario">
-            <div class="interface">
-                <h2 class="titulo">FALE <span>COMIGO.</span></h2>
-
-                <form action="mailto:pricylia884@gmail.com" method="post" enctype="text/plain">
-                    <input type="text" id="nome" name="nome" placeholder="Nome completo:" required>
-                    <input type="text" id="email" name="email" placeholder="E-mail:" required>
-                    <input type="text" id="contato" name="contato" placeholder="Contato:">
-                    <textarea name="" id="informacao" name="informacao" placeholder="Informação:" required></textarea>
-                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-                </form>
-            </div>
-        </section>
     </main>
     <!-- Rodapé -->
     <footer>
-        <div class="interface">
+        <div class="interface" id="interface">
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
@@ -220,11 +208,13 @@
                     <div class="btn-social">
                         <a href="https://www.instagram.com/ipricylia_/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
                         <a href="https://www.linkedin.com/in/pricylia-oliveira?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcbkOEYxpRsS3NTxsVhZ2cQ%3D%3D" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/Pricylia" target="_blank"><button><i class="bi bi-github"></i></button></a>
                     </div>
                 </div>
             </div>
             <div class="line-footer borda">
                 <p><i class="bi bi-envelope-fill"></i> <a href="mailto:pricylia884@gmail.com"> pricylia884@gmail.com</a></p>
+                <p><i class="bi bi-whatsapp"></i> <a href="https://wa.me/86994326321">+55 86994326321</a></p>
             </div>
         </div> 
     </footer>
