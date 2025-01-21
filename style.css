@@ -365,9 +365,13 @@ section.portfolio .flex{
     justify-content: center;
     font-size: 24px;
     font-weight: 600;
-    color: white;
+    color: #c9184a;
     opacity: 0;
     transition: .5s;
+}
+
+.overlay i{
+    margin-left: 5px;
 }
 
 .overlay:hover{
